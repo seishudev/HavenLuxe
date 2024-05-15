@@ -1,0 +1,30 @@
+@import "../../../assets/styles/classes.scss";
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  overflow: auto;
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 10px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 16px;
+    min-width: 250px;
+    max-height: 95%;
+    overflow-y: auto;
+  }
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}

@@ -1,0 +1,131 @@
+@import '../../assets/styles/main';
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 19%;
+  max-height: 420px;
+  padding: 5px;
+  transition: transform .2s ease;
+  border-bottom: 2px solid pink;
+  @media (max-width: 1024px) {
+    gap: 0;
+  }
+  @media (max-width: 768px) {
+    width: 45%;
+    gap: 5px;
+  }
+  @media (max-width: 425px) {
+    gap: 0;
+  }
+  @media (max-width: 375px) {
+    width: 85%;
+  }
+  &:hover {
+    transform: scale(1.1);
+    .cart {
+      display: block;
+    }
+  }
+  img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid pink;
+  }
+  .favourite {
+    position: absolute;
+    font-size: 32px;
+    left: 25px;
+    top: 15px;
+    &:hover {
+      @include hoverStyles
+    }
+    .selector {
+      color: pink;
+    }
+  }
+  .cart {
+    display: none;
+    position: absolute;
+    font-size: 40px;
+    right: 20px;
+    bottom: 150px;
+    @media (max-width: 1440px) {
+      bottom: 140px;
+    }
+    @media (max-width: 1024px) {
+      bottom: 125px;
+      font-size: 35px;
+    }
+    @media (max-width: 425px) {
+      bottom: 115px;
+      right: 15px;
+    }
+    &:hover {
+      @include hoverStyles
+    }
+  }
+  p {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 34px;
+    @media (max-width: 1440px) {
+      font-size: 10px;
+      height: 25px;
+    }
+    @media (max-width: 1024px) {
+      font-size: 8px;
+    }
+    @media (max-width: 768px) {
+      font-size: 10px;
+    }
+    @media (max-width: 425px) {
+      font-size: 8px;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    @media (max-width: 1024px) {
+      height: 90px;
+    }
+    @media (max-width: 768px) {
+      height: 80px;
+    }
+    h3 {
+      font-size: 22px;
+      @media (max-width: 1440px) {
+        font-size: 18px;
+      }
+      @media (max-width: 1024px) {
+        font-size: 16px;
+      }
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+      @media (max-width: 425px) {
+        font-size: 16px;
+      }
+      @media (max-width: 375px) {
+        font-size: 18px;
+      }
+    }
+    span {
+      font-size: 22px;
+      font-weight: 600;
+      align-self: end;
+      margin-right: 10px;
+      @media (max-width: 1024px) {
+        font-size: 20px;
+      }
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+  }
+}

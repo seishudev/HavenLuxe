@@ -1,0 +1,112 @@
+{
+  "cosmetics": [
+    {
+      "id": "1",
+      "name": "PUSY brow fix gel professional",
+      "description": "Гель-фиксатор для бровей",
+      "price": 1490,
+      "image": "https://pcdn.goldapple.ru/p/p/19000074960/web/696d67416464318db78ac07969dcefullhd.webp?width=1280&height=720",
+      "category": "Novelty"
+    },
+    {
+      "id": "2",
+      "name": "VIVIENNE SABO cabaret",
+      "description": "Праймер и тушь с эффектом накрашенных ресниц",
+      "price": 514,
+      "image": "https://pcdn.goldapple.ru/p/p/19000185852/web/696d674d61696e8db7e0515d6a4e5fullhd.webp?width=1280&height=720",
+      "category": "Hits"
+    },
+    {
+      "id": "3",
+      "name": "ARIVE MAKEUP comfort",
+      "description": "Блеск для губ",
+      "price": 349,
+      "image": "https://pcdn.goldapple.ru/p/p/19000238030/web/696d674d61696e8dc524e62d0bfabfullhd.webp?width=1280&height=720",
+      "category": "Interesting"
+    },
+    {
+      "id": "4",
+      "name": "SHIK extra volume eyelash mascara",
+      "description": "Тушь для ресниц",
+      "price": 550,
+      "image": "https://pcdn.goldapple.ru/p/p/70063000001/web/696d674d61696e8dc49915712407efullhd.webp?width=1280&height=720",
+      "category": "Novelty"
+    },
+    {
+      "id": "5",
+      "name": "CHUPA CHUPS candy glow",
+      "description": "Тональная основа-кушон",
+      "price": 1426,
+      "image": "https://pcdn.goldapple.ru/p/p/19000014729/web/696d674d61696e8dc2d928384abb3fullhd.webp?width=1280&height=720",
+      "category": "Hits"
+    },
+    {
+      "id": "6",
+      "name": "VIVIENNE SABO le grand volume",
+      "description": "Карандаш для губ",
+      "price": 547,
+      "image": "https://pcdn.goldapple.ru/p/p/19000140953/web/696d674d61696e8daf2f858d8e3e2fullhd.webp?width=1280&height=720",
+      "category": "Interesting"
+    },
+    {
+      "id": "7",
+      "name": "CLARINS plant gold - l'or des plantes",
+      "description": "Питательная эмульсия для лица",
+      "price": 8000,
+      "image": "https://pcdn.goldapple.ru/p/p/19000131031/web/696d674d61696e8dc5082f6a340c6fullhd.webp?width=1280&height=720",
+      "category": "Novelty"
+    },
+    {
+      "id": "8",
+      "name": "KIKO MILANO ph glow lipstick",
+      "description": "Помада с РН-блеском",
+      "price": 1599,
+      "image": "https://pcdn.goldapple.ru/p/p/19000040245/web/696d674d61696e8dc62ceeeb15613fullhd.webp?width=1280&height=720",
+      "category": "Hits"
+    },
+    {
+      "id": "9",
+      "name": "SHIK crimson blush",
+      "description": "Румяна-суфле для лица",
+      "price": 1025,
+      "image": "https://pcdn.goldapple.ru/p/p/19000277619/web/696d67416464318dc65e627dee55afullhd.webp?width=1280&height=720",
+      "category": "Interesting"
+    },
+    {
+      "id": "10",
+      "name": "SHIK perfect sculptor",
+      "description": "Скульптор запеченный",
+      "price": 1922,
+      "image": "https://pcdn.goldapple.ru/p/p/19000014800/web/696d674d61696e8dc2d8c72d22fcafullhd.webp?width=1280&height=720",
+      "category": "Novelty"
+    },
+    {
+      "id": "11",
+      "name": "TOM FORD lost cherry",
+      "description": "Парфюмерная вода",
+      "price": 24300,
+      "image": "https://pcdn.goldapple.ru/p/p/19760324221/web/696d674d61696e8dbd935f6df739efullhd.webp?width=1280&height=720",
+      "category": "Hits"
+    },
+    {
+      "id": "12",
+      "name": "ANASTASIA BEVERLY HILLS",
+      "description": "Карандаш для губ",
+      "price": 2516,
+      "image": "https://pcdn.goldapple.ru/p/p/19000164663/web/696d674d61696e8dbe0ec2d9bcc90fullhd.webp?width=1280&height=720",
+      "category": "Interesting"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "seishuweb@gmail.com",
+      "passwordHash": "frontend777"
+    },
+    {
+      "id": "2",
+      "email": "alisa@gmail.com",
+      "passwordHash": "alisochka"
+    }
+  ]
+}

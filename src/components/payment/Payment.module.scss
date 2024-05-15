@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 0 20px;
+  .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    h2 {
+      font-size: 26px;
+      @media (max-width: 1024px) {
+        font-size: 24px;
+      }
+      @media (max-width: 425px) {
+        font-size: 20px;
+      }
+      @media (max-width: 320px) {
+        font-size: 18px;
+      }
+    }
+    p {
+      font-size: 24px;
+      font-weight: 600;
+      align-self: center;
+      @media (max-width: 1024px) {
+        font-size: 22px;
+      }
+      @media (max-width: 425px) {
+        font-size: 18px;
+      }
+      @media (max-width: 320px) {
+        font-size: 16px;
+      }
+    }
+  }
+  .btn {
+    font-size: 18px;
+    align-self: start;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    @media (max-width: 1024px) {
+      font-size: 16px;
+    }
+    @media (max-width: 425px) {
+      font-size: 14px;
+    }
+    @media (max-width: 320px) {
+      font-size: 12px;
+    }
+  }
+}
