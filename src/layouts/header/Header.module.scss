@@ -99,6 +99,10 @@
       position: absolute;
       right: 49px;
       bottom: 22px;
+      @media (max-width: 425px) {
+        right: 30px;
+        bottom: 18px;
+      }
     }
     .auth {
       font-size: 26px;
